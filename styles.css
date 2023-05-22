@@ -21,7 +21,7 @@
 .Beyno_font, h2{
     font-family: BEYNO, system-ui, serif;
 }
-.Wakanda-forever_font{
+.Wakanda-forever_font, span{
     font-family: Wakanda-forever, serif;
 }
 .Cantarell_font, p{
@@ -31,6 +31,73 @@
 
 /*----------------------------------------- -Entête des pages- -----------------------------------------*/
 body{
+    color: #ffffff;
     background: rgb(15,25,43);
     background: linear-gradient(95deg, rgba(15,25,43,1) 0%, rgba(13,13,15,1) 29%, rgba(34,48,73,1) 83%, rgba(96,109,135,1) 100%); 
 }
+section{
+    margin: 5%;
+}
+#Head{
+    border: 3px rgb(196, 196, 196, .4) solid;
+}
+#Intro{
+    width: 50%;
+    border: 3px rgb(196, 196, 196, .4) solid;
+    background-repeat: no-repeat;
+}
+h1, h2{
+    color: #9E91B7;
+}
+h1{
+    margin-bottom: -10px;
+    font-size: 48px;
+}
+nav div.as_flex{
+    justify-content: space-between;
+    margin-top: 0%;
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-right: 4.5%;
+    padding-bottom: 3%;
+    border: 3px rgb(196, 196, 196, .4) solid;
+}
+header{
+    flex-direction: column;
+}
+#Social_N_ico{
+    width: min-content;
+    flex-direction: column;
+}
+a:visited, a{
+    color: #ffffff;
+    text-decoration: none;
+}
+a#page_actuelle{
+    color: #9E91B7;
+    text-decoration: underline;
+}
+img[alt="Sayna_X_Marvel"]{
+    height: 27px;
+    width: 120px;
+}
+img[alt="Image principale du panthère"]{
+    width: 100%;
+}
+/*------------------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------- -Corps de la page- -------------------------------------*/
+
+
+/*------------------------------------------------------------------------------------------------------*/
+
+
+/*---------------------------------------- -Définitions raccourci- -------------------------------------*/
+.as_flex{
+    display: flex;
+    border: 3px rgb(196, 196, 196, .4) solid
+}
+.as_grid{
+    display: grid;
+}
+/*------------------------------------------------------------------------------------------------------*/
