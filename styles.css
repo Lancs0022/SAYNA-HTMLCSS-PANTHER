@@ -15,7 +15,7 @@
     font-family: "Cantarell";
     src: url("polices/Cantarell-Regular.ttf");
 }
-.Panthera_font{
+.Panthera_font, h1{
     font-family: Panthera, Arial, Helvetica, sans-serif;
 }
 .Beyno_font, h2{
@@ -53,19 +53,33 @@ h1{
     margin-bottom: -10px;
     font-size: 48px;
 }
-nav div.as_flex{
-    justify-content: space-between;
-    margin-top: 0%;
-    padding-top: 3%;
-    padding-left: 5%;
-    padding-right: 4.5%;
-    padding-bottom: 3%;
+nav#Presentation_personnages{
+    display: flex;
     border: 3px rgb(196, 196, 196, .4) solid;
+    align-items: center;
+    margin-top: 0%;
+    border: 3px rgb(196, 196, 196, .4) solid;
+}
+nav figure{
+    display: flex;
+    margin: 0px;
+    align-items: center;
+    width: 70%;
+    height: 5%;
+    justify-content: space-between;
+    border: 1.5px #ffffff solid;
 }
 header{
     flex-direction: column;
 }
+#navigation{
+    display: flex;
+    justify-content: space-between;
+    border: 3px rgb(196, 196, 196, .4) solid;
+}
 #Social_N_ico{
+    display: flex;
+    border: 3px rgb(196, 196, 196, .4) solid;
     width: min-content;
     flex-direction: column;
 }
@@ -87,17 +101,15 @@ img[alt="Image principale du panthère"]{
 /*------------------------------------------------------------------------------------------------------*/
 
 /*---------------------------------------- -Corps de la page- -------------------------------------*/
-
-
-/*------------------------------------------------------------------------------------------------------*/
-
-
-/*---------------------------------------- -Définitions raccourci- -------------------------------------*/
-.as_flex{
-    display: flex;
-    border: 3px rgb(196, 196, 196, .4) solid
+.contenu_principale{grid-area:Texte;}
+#biographie{
+    grid-area:bio;
 }
-.as_grid{
+#Corps{
     display: grid;
+    grid-template-areas: "Texte bio";
+}
+#info_bio{
+    background-color: #ffffff;
 }
 /*------------------------------------------------------------------------------------------------------*/
