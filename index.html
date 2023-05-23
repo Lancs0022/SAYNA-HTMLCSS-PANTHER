@@ -12,7 +12,7 @@
     <header class="Beyno_font">   
         <nav id="Home">
             <div id="navigation">
-                <img src="assets\All pages\footer2.png" alt="Sayna_X_Marvel">
+                <img src="assets\All pages\footer2.png" alt="Sayna_X_Marvel1">
                 <div>
                     <a href="index.html" id="page_actuelle">ACCEUIL</a>
                     <a href="wakanda.html">WAKANDA</a>
@@ -20,13 +20,16 @@
                 </div>
             </div>
         </nav>
-        
-        <nav id="Social_N_ico">
-            <img src="assets\All pages\icon_facebook.png" alt="icon_facebook">
-            <img src="assets\All pages\icon_instagram.png" alt="icon_instagram">
-            <img src="assets\All pages\icon_twitter.png" alt="icon_twitter">
-            <img src="assets\All pages\icon_tiktok.png" alt="icon_tiktok">
-        </nav>
+        <div id="presentation_social_media">
+            <div id="ligne1"></div>
+            <div id="ligne2"></div>
+            <nav id="Social_N_ico">
+                <img src="assets\All pages\icon_facebook.png" alt="icon_facebook">
+                <img src="assets\All pages\icon_instagram.png" alt="icon_instagram">
+                <img src="assets\All pages\icon_twitter.png" alt="icon_twitter">
+                <img src="assets\All pages\icon_tiktok.png" alt="icon_tiktok">
+            </nav>
+        </div>
     </header>
 
     <section id="Head">
@@ -43,7 +46,7 @@
         </section>
          <img src="assets\Accueil\Pantherhome1.png" alt="Image principale du panthère">
     </section>
-        <nav class="as_flex" id="Presentation_personnages">
+        <nav id="Presentation_personnages">
             <figure>
                 <img src="assets\Accueil\Pantherhome2.png" alt="Image de Killmonger">
                 <figcaption>
@@ -165,13 +168,15 @@
         </article>
         <aside class="Cantarell_font" id="biographie">
             <div id="info_bio">
-                <img src="assets\Accueil\Pantherhome5.png" alt="Photo de Chadwick Boseman en tant que T'Challa">
-                <h2>T’Challa</h2>
-                <nav>
-                    <button>Black Panther</button>
-                    <button>Roi du Wakanda</button>
-                    <button>En vie</button>
-                </nav>
+                <div id="sup_bio">
+                    <img src="assets\Accueil\Pantherhome5.png" alt="Photo de Chadwick Boseman en tant que T'Challa">
+                    <h2 class="Cantarell_font">T’Challa</h2>
+                    <nav>
+                        <button>Black Panther</button>
+                        <button>Roi du Wakanda</button>
+                        <button>En vie</button>
+                    </nav>
+                </div>
                 <div>
                     Acteur : <strong>Chadwick Boseman</strong> <br>
                     Apparition : <strong>Captain America Civil War (2016)</strong> <br>
@@ -181,41 +186,47 @@
                     Décès : <strong>: 31 mai 2018 (victime du Snap ; ressuscité par Hulk en 2023) (2016)</strong> <br>
                     Réalité : <strong>Terre-199999</strong> <br>
                 </div>
-                <img src="assets\Accueil\Pantherhome6.png" alt="">
             </div>
+            <img src="assets\Accueil\Pantherhome6.png" alt="">
         </aside>
     </div>
     
-    <section>
-        <p>Besoin de l’intervention du Wakanda ?</p>
-        <h2>Contactez nous !</h2>
-        <form action="post">
-            <input type="text" name="" id="Nom" placeholder="Nom"> <br>
-            <input type="email" name="" id="Email" placeholder="Email"> <br>
-            <textarea name="" id="Message" cols="30" rows="10" placeholder="Message"></textarea> <br>
-            <input type="button" value="ENVOYER">
-        </form>
+    <section id="form_big_container">
+        <div id="formulaire">
+            <p>Besoin de l’intervention du Wakanda ?</p>
+            <h2 class="Cantarell_font">Contactez nous !</h2>
+            <form action="post">
+                <input type="text" name="" id="Nom" placeholder="    Nom"> <br>
+                <input type="email" name="" id="Email" placeholder="    Email"> <br>
+                <textarea name="" id="Message" cols="32" rows="10" placeholder="
+  Message"></textarea> <br>
+                <input type="button" value="ENVOYER">
+            </form>
+        </div>
     </section>
 
     <footer>
-        <figure>
-            <img src="assets\All pages\footer1.png" alt="3 Cercles">
-            <img src="assets\All pages\footer2.png" alt="Sayna_X_Marvel">
-        </figure>
-        <div>
-            <h3 class="Cantarell_font">P A G E S</h3>
-            <p>à propos
-                Wakanda</p>
-        </div>
-        <figure>
-            <figcaption class="Cantarell_font">RETROUVEZ NOUS</figcaption>
-            <figure>
-                <img src="assets\All pages\footer3.png" alt="">
-                <img src="assets\All pages\footer4.png" alt="">
-                <img src="assets\All pages\footer5.png" alt="">
-                <img src="assets\All pages\footer6.png" alt="">
+        <div id="foot">
+            <figure id="Logo_footer">
+                <img src="assets\All pages\footer2.png" alt="Sayna_X_Marvel2">
             </figure>
-        </figure>
+            <div>
+                <h3 class="Cantarell_font">P A G E S</h3>
+                <p>à propos <br>
+                    Wakanda</p>
+            </div>
+            <div>
+                <figure>
+                    <figcaption class="Cantarell_font">RETROUVEZ NOUS</figcaption>
+                    <figure>
+                        <img src="assets\All pages\footer3.png" alt="">
+                        <img src="assets\All pages\footer4.png" alt="">
+                        <img src="assets\All pages\footer5.png" alt="">
+                        <img src="assets\All pages\footer6.png" alt="">
+                    </figure>
+                </figure>
+            </div>
+        </div>
         <P>2022 Tous droits réservés . Politique de confidentialité . Conditions d'utilisation</P>
     </footer>
 </body>
