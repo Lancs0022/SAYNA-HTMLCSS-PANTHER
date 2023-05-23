@@ -134,11 +134,17 @@ img[alt="Image principale du panthère"]{
     width: 100%;
 }
 #Wakanda_forever{
+    background-position: center;
     margin: 0%;
     background-image: url("assets/Wakanda/Pantherwakanda1.png");
     background-size: 120% 120%;
     height: max-content;
     background-repeat: no-repeat;
+    padding: 12%;
+    margin-bottom: 5%;
+}
+section#Wakanda_forever p{
+    width: 60%;
 }
 /*------------------------------------------------------------------------------------------------------*/
 
@@ -168,11 +174,25 @@ img[alt="Photo de Chadwick Boseman en tant que T'Challa"]{
     margin-top: -50%;
 }
 #video_iframe{
-    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    text-align: center;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    background-color: #3D2DA6;
+    margin: fit-content;
 }
 #Corps_Wakanda{
     display: grid;
     grid-template-columns: 50% 50%;
+}
+main#Corps_Wakanda0{
+    background-image: url("assets/Wakanda/Pantherwakanda2.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+img[alt="Affiche de black panthere"]{
+    width: 100%;
 }
 /*------------------------------------------------------------------------------------------------------*/
 
