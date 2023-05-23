@@ -83,38 +83,38 @@ header{
 }
 #navigation{
     display: flex;
+    margin-top: 2%;
     margin-left: 8%;
     margin-right: 8%;
     justify-content: space-between;
-    border: 3px rgb(196, 196, 196, .4) solid;
 }
 #presentation_social_media{
     display: flex;
-    grid-template-columns: 2% 2%;
     width: 15%;
-    background: rgb(90, 87, 87);
-    border: 3px rgb(196, 196, 196, .4) solid;
 }
 #ligne1{
+    margin-left: 40px;
     position: relative;
-    top: -44px;
+    top: -48px;
     height: 280px;
     width: 3px;
     background-color: #9E91B7;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 #ligne2{
     position: relative;
-    top: -44px;
+    top: -48px;
     height: 180px;
     width: 3px;
     background-color: #9E91B7;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 #Social_N_ico{
+    position: relative;
+    bottom: -142px;
+    left: -30px;
     display: flex;
     align-self: flex-start;
-    border: 3px rgb(196, 196, 196, .4) solid;
     width: min-content;
     flex-direction: column;
 }
@@ -133,11 +133,17 @@ img[alt="Sayna_X_Marvel1"]{
 img[alt="Image principale du panthère"]{
     width: 100%;
 }
-
+#Wakanda_forever{
+    margin: 0%;
+    background-image: url("assets/Wakanda/Pantherwakanda1.png");
+    background-size: 120% 120%;
+    height: max-content;
+    background-repeat: no-repeat;
+}
 /*------------------------------------------------------------------------------------------------------*/
 
 /*---------------------------------------- -Corps de la page- -------------------------------------*/
-#Corps{
+#Corps_Acceuil{
     display: grid;
     grid-template-columns: 60% auto;
 }
@@ -161,18 +167,23 @@ img[alt="Photo de Chadwick Boseman en tant que T'Challa"]{
     position: relative;
     margin-top: -50%;
 }
+#video_iframe{
+    margin: auto;
+}
+#Corps_Wakanda{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
 /*------------------------------------------------------------------------------------------------------*/
 
 /*---------------------------------------- -formulaire de la page- -------------------------------------*/
-#formulaire p{
-    margin: 0px;
-}
+
 #formulaire h2{
-    margin: 0px;
     color: #000000;
     font-size: 33px;
 }
 #form_big_container{
+    align-self: center;
     color: #000000;
     font-size: 10px;
     margin: auto;
