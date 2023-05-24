@@ -155,7 +155,7 @@ img[alt="Okoye en image de fond"]{
     width: 250%;
     height: auto;
 }
-#Intro2{
+#Intro_Enigme{
     position: relative;
     left: -11%;
     bottom: -200px;
@@ -178,6 +178,17 @@ img[alt="Okoye en image de fond"]{
 }
 div#info_bio h2{
     color: #000000;
+}
+#tag_biographie{
+    display: flex;
+}
+.tag_biographie{
+    font-size: 11px;
+    background: #07338c;
+    margin: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    color: #ffffff;
 }
 #info_bio{
     margin-top: 30%;
@@ -300,7 +311,7 @@ input#réponse{
 }
 /*------------------------------------------------------------------------------------------------------*/
 
-/*---------------------------------------- - footer - -------------------------------------*/
+/*--------------------------------------------- - footer - ---------------------------------------------*/
 footer{
     text-align: center;
     background-image: url("assets/All pages/back_footer.png");
@@ -347,3 +358,80 @@ body {
     }
 }
    */
+
+/*--------------------------------------------- - query - ---------------------------------------------*/
+@media only screen and (max-width:1030px){
+    /*Presentation personnage*/
+    nav#Presentation_personnages{
+        padding-left: 2%;
+        display: grid;
+        column-gap: 5%;
+        grid-template-columns: 1fr;
+        grid-row: 1fr 1fr 1fr;
+        border: 3px rgb(196, 196, 196, .4) solid;
+        background-color: #021740;
+        align-items: center;
+        margin-top: 0%;
+    }
+    nav figure{
+        justify-self: center;
+        padding-bottom: 2%;
+        display: flex;
+        margin: 0px;
+        align-items: center;
+        width: 70%;
+        height: 5%;
+        justify-content: space-between;
+    }
+    img[alt="Image de Killmonger"]{
+        height: 320px;
+    }
+    img[alt="Image de Okoye"]{
+        height: 240px;
+    }
+    img[alt="Image de la petite soeur du Panthère"]{
+        margin-left: 14.95%;
+    }
+
+    /*Ajustement de l'image du panthère*/
+    #Head_Acceuil{
+        display: flex;
+        margin-top: 0%;
+        position: relative;
+    }
+    #Intro{
+        width: 30%;
+        background-repeat: no-repeat;
+    }
+    section#Head_Acceuil img{
+        height: 5000%;
+        width: 100%;
+        position: relative;
+        bottom: -230px;
+    }
+    /*Ajustement du corps*/
+    #Corps_Acceuil{
+        display: initial;
+        grid-template-columns: 60% auto;
+    }
+}
+@media only screen and (max-width: 1240px){
+    /*Ajustements sur la page Enigme*/
+    #Head_Enigme{
+        display: flex;
+        justify-content: space-around;
+        margin: 0%;
+        position: relative;
+    }
+    img[alt="Okoye en image de fond"]{
+        width: 250%;
+        height: auto;
+    }
+    #Intro_Enigme{
+        all: unset;
+    }
+    #titre_defi{
+        margin-bottom: 25%;
+    }
+
+}
