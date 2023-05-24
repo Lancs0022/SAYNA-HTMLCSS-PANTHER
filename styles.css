@@ -41,12 +41,13 @@ body{
 section{
     margin: 5%;
 }
-#Head{
-    border: 3px rgb(196, 196, 196, .4) solid;
+#Head_Acceuil{
+    display: flex;
+    margin-top: 0%;
+    position: relative;
 }
 #Intro{
     width: 50%;
-    border: 3px rgb(196, 196, 196, .4) solid;
     background-repeat: no-repeat;
 }
 h1, h2{
@@ -59,9 +60,9 @@ h1{
 nav#Presentation_personnages{
     display: flex;
     border: 3px rgb(196, 196, 196, .4) solid;
+    background-color: #021740;
     align-items: center;
     margin-top: 0%;
-    border: 3px rgb(196, 196, 196, .4) solid;
 }
 nav figure{
     display: flex;
@@ -70,16 +71,12 @@ nav figure{
     width: 70%;
     height: 5%;
     justify-content: space-between;
-    border: 1.5px #ffffff solid;
 }
 img[alt="Image de Killmonger"]{
     height: 320px;
 }
 img[alt="Image de Okoye"]{
     height: 240px;
-}
-header{
-    flex-direction: column;
 }
 #navigation{
     display: flex;
@@ -122,9 +119,11 @@ a:visited, a{
     color: #ffffff;
     text-decoration: none;
 }
+a:hover{
+    text-decoration: underline;
+}
 a#page_actuelle{
     color: #9E91B7;
-    text-decoration: underline;
 }
 img[alt="Sayna_X_Marvel1"]{
     height: 27px;
@@ -145,6 +144,33 @@ img[alt="Image principale du panthère"]{
 }
 section#Wakanda_forever p{
     width: 60%;
+}
+#Head_Enigme{
+    display: flex;
+    justify-content: space-around;
+    margin: 0%;
+    position: relative;
+}
+img[alt="Okoye en image de fond"]{
+    width: 250%;
+    height: auto;
+}
+#Intro2{
+    position: relative;
+    left: -11%;
+    bottom: -200px;
+}
+#titre_defi{
+    margin-bottom: 25%;
+}
+/* #ennonce_defi{
+    background-image: url("assets/Enigme/Pantherenigme2.png");
+    background-position: 5% 5%;
+    height: 500px;
+    width: 600px;
+} */
+#defi{
+    display: flex;
 }
 /*------------------------------------------------------------------------------------------------------*/
 
@@ -196,40 +222,62 @@ img[alt="Affiche de black panthere"]{
 }
 /*------------------------------------------------------------------------------------------------------*/
 
-/*---------------------------------------- -formulaire de la page- -------------------------------------*/
+/*---------------------------------------- -formulaires- -------------------------------------*/
 
 #formulaire h2{
     color: #000000;
     font-size: 33px;
+}
+#main_container{
+    margin: 0px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-image: url("assets/Accueil/Pantherhome7.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 #form_big_container{
     align-self: center;
     color: #000000;
     font-size: 10px;
     margin: auto;
-    background-image: url("assets/Accueil/Pantherhome7.png");
-    background-size: cover;
-    margin-left: 0px;
-    background-repeat: no-repeat;
+    margin-left: 23%;
 }
 div#formulaire{
     padding: 5%;
     padding-left: 8%;
     padding-right: 8%;
-    width: 50%;
+    width: 55%;
     text-align: center;
     background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(255, 255, 255,0));
     border-radius: 120px;
 }
-input#Nom, #Email, textarea{
+input{
     margin-top: 12px;
     width: 60%;
+    height: 40px;
     background-color: transparent;
     border-radius: 38px;
     border-color: #000000;
 }
 textarea{
     margin-bottom: 20px;
+}
+input[type="button"]{
+    background-color: #F2CEF2;
+    width: 40%;
+    height: 40px;
+    border-radius: 38px;
+    border: none;
+}
+input[type="button"]:hover{
+    box-shadow: 6px 6px 20px#021740;
+}
+input[type="button"]#bouton_enigme:hover{
+    box-shadow: 6px 6px 20px#F2CEF2;
+}
+input#réponse{
+    color: #ffffff;
 }
 /*------------------------------------------------------------------------------------------------------*/
 
