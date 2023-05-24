@@ -270,7 +270,12 @@ input{
     border-color: #000000;
 }
 textarea{
+    border-color: #000000;
+    margin-top: 2%;
     margin-bottom: 20px;
+    background-color: transparent;
+    border-radius: 38px;
+    width: 60%;
 }
 input[type="button"]{
     background-color: #F2CEF2;
