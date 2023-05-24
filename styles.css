@@ -169,9 +169,6 @@ img[alt="Okoye en image de fond"]{
     height: 500px;
     width: 600px;
 } */
-#defi{
-    display: flex;
-}
 /*------------------------------------------------------------------------------------------------------*/
 
 /*---------------------------------------- -Corps de la page- -------------------------------------*/
@@ -219,6 +216,18 @@ main#Corps_Wakanda0{
 }
 img[alt="Affiche de black panthere"]{
     width: 100%;
+}
+#D1{
+    width: 40%;
+}
+#D2{
+    text-align: center;
+    padding-left: 5%;
+    width: 39%;
+}
+#defi{
+    display: flex;
+    justify-content: space-between;
 }
 /*------------------------------------------------------------------------------------------------------*/
 
@@ -275,6 +284,11 @@ input[type="button"]:hover{
 }
 input[type="button"]#bouton_enigme:hover{
     box-shadow: 6px 6px 20px#F2CEF2;
+}
+#bouton_enigme{
+    position: relative;
+    bottom: -30px;
+    right: -60px;
 }
 input#réponse{
     color: #ffffff;
